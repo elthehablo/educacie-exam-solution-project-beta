@@ -1,8 +1,3 @@
-import numpy as np
-import matplotlib.pyplot as plt
-
-
-
 wallet = [0, 0, 3, 3, 2, 1, 6, 1] #1 EUcent, 2 cent, 5 cent, 10 cent, 20 cent, 50 cent, 1eu, 2eu
 
 def findBiggestCoin(amount):
