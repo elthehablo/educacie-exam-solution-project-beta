@@ -1,8 +1,3 @@
-import numpy as np
-import matplotlib.pyplot as plt
-
-
-
 def drawHangman(gamestate):
     """
     displays the current situation of hangman. gamestate is an array that shows how far the gallow is
