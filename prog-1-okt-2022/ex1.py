@@ -13,6 +13,9 @@ def findBiggestCoin(amount):
     return 7
 
 def walletdisplay(wallettest, array):
+    """
+    prints the amount of coins that exist for every sort of coin that is in the wallet
+    """
     for i in range(len(array)):
         print("of a "+str(wallettest[i])+" coin we have "+str(array[i])+" left.")
 

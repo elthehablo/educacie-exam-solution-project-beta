@@ -32,6 +32,10 @@ def drawHangman(gamestate):
     print("-------")
 
 def checkGuess(guess, wordguess, word):
+    """
+    checks how many of the letters are present in the hangman word with the guess that is made by the user. also updates the wordguess with the letters that are guessed at the right places
+    returns: the new guess with the guessed words filled in and the amount of instances were the letter is filled in
+    """
     sum = 0
     for i in range(len(word)):
         if word[i] == guess:
