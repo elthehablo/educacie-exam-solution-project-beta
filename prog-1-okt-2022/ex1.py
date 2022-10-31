@@ -62,7 +62,24 @@ def coins(wallet, amount):
                 j -= 1
     return emptywallet, amount
 
+def walletfunc():
+	wallet = [0, 0, 3, 3, 2, 1, 6, 1]
+	walletlib = [0.01, 0.02, 0.05, 0.1, 0.2, 0.5, 1, 2]
+	cycler = 7
+	walletused = [0, 0, 0, 0, 0, 0, 0, 0]
+	amount = 5.85
+	while amount > 0:
+		if wallet[cycler] > 0:
+			print(amount)
+			walletused[cycler] += 1
+			amount -= walletlib[cycler]
+		cycler -= 1
+	return walletused
 
-print(coins(wallet, 9.4))
+print(walletfunc())
+
+
+
+#print(coins(wallet, 9.4))
 
 
