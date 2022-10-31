@@ -62,21 +62,23 @@ def coins(wallet, amount):
                 j -= 1
     return emptywallet, amount
 
-def walletfunc():
+#the right function sort of (missing try/error thing)
+def walletfunc(amount):
 	wallet = [0, 0, 3, 3, 2, 1, 6, 1]
 	walletlib = [0.01, 0.02, 0.05, 0.1, 0.2, 0.5, 1, 2]
 	cycler = 7
 	walletused = [0, 0, 0, 0, 0, 0, 0, 0]
-	amount = 5.85
 	while amount > 0:
-		if wallet[cycler] > 0:
+		while wallet[cycler] > 0 and amount > 0:
 			print(amount)
 			walletused[cycler] += 1
 			amount -= walletlib[cycler]
+			wallet[cycler] -= 1
 		cycler -= 1
-	return walletused
+	leftovermoney = -1*round(amount, 2)
+	return walletused, leftovermoney
 
-print(walletfunc())
+
 
 
 
