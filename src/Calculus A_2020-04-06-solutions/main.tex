@@ -1,19 +1,64 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
+\usepackage[framemethod=tikz]{mdframed}
+
+\usepackage{amsmath,amssymb}
+\usepackage{physics}
 
 \title{Calculus A 2020-04-06 solutions}
-\author{Educacie}
-\date{October 2022}
 
+\newcounter{exercise}
+\setcounter{exercise}{0}
+\newcounter{subexercise}
+\setcounter{subexercise}{0}
+
+\newenvironment{ex}[1][]{
+	\refstepcounter{exercise}\setcounter{subexercise}{0}\par\medskip
+	\noindent\textbf{Opdracht~\theexercise. }\rmfamily
+}{\medskip}
+\newenvironment{subex}[1][]{
+	\refstepcounter{subexercise}\par\medskip
+	\noindent\textbf{(\alph{subexercise}) }\rmfamily
+}{\medskip}
+\newenvironment{sol}[1][]{
+	\par\medskip
+	\begin{mdframed}
+		\textbf{Antwoord: }
+}{\end{mdframed}\medskip}
+\newenvironment{proof}[1][]{
+	\par\medskip
+	\noindent\textit{Bewijs:}
+}{\null\hfill\(\blacksquare\)\medskip}
+\author{Educacie}
+\date{\today}
+
+
+\newcommand{\h}[1]{\left(#1\right)}
 \begin{document}
 
 \maketitle
-
-\section*{Exercise 1}
-
-\subsection{a)}
-
-
-
-
+\begin{ex}
+	Definieer de funtie \(f:\left(-\infty,-2\right)\to\mathbb{R}\) door \(f(x) = \exp\left(\dfrac{2 - x}{2 + x}\right)\).
+\end{ex}
+\begin{subex}
+	Bepaal de afgeleide van \(f\).
+\end{subex}
+\begin{sol}
+    Uit de ketting regel en quotient regel volgt dat
+    \begin{align*}
+		\dv{f}{x}
+		&= \dv{x}\h{\exp\h{\dfrac{2 - x}{2 + x}}} = \exp\h{\dfrac{2 - x}{2 + x}}\dv{x}\h{\dfrac{2 - x}{2 + x}}\\
+		&= \exp\h{\dfrac{2 - x}{2 + x}}\dfrac{-\h{2 + x} - \h{2 - x}}{\h{2 + x}^2} = -\exp\h{\dfrac{2 - x}{2 + x}}\dfrac{4}{\h{2 + x}^2}
+	\end{align*}
+\end{sol}
+\begin{subex}
+	Bepaal het bereik van \(f\).
+\end{subex}
+\begin{sol}
+	De maxima en minima worden bereikt op kritieke punten of the uiteinden van het domein. De kritieke punten zijn gegeven door \(\dv*{f}{x} = 0\), we merken op dat deze punten niet bestaan. Daarom beschouwen we de limieten van de functie.
+	\begin{align*}
+		\lim_{x\to-\infty}f\h{x} &= \lim_{x\to-\infty}\exp\h{\dfrac{2 - x}{2 + x}} = \lim_{x\to-\infty}\exp\h{\dfrac{\flatfrac{2}{x} - 1}{\flatfrac{2}{x} + 1}} = e^{-1}\\
+		\lim_{x\to-2}{f\h{x}} &= 
+	\end{align*}
+\end{sol}
 \end{document}
