@@ -1,13 +1,51 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
+\usepackage{mdframed}
 
-\title{NaN}
-\author{Daan Roes}
-\date{October 2022}
+\usepackage{amssymb,amsmath}
+
+\title{}
+
+\newcounter{exercise}
+\setcounter{exercise}{0}
+\newcounter{subexercise}
+\setcounter{subexercise}{0}
+
+\newenvironment{ex}[1][]{
+	\refstepcounter{exercise}\setcounter{subexercise}{0}\par\medskip
+	\noindent\textbf{Opdracht~\theexercise. }\rmfamily
+}{\medskip}
+\newenvironment{subex}[1][]{
+	\refstepcounter{subexercise}\par\medskip
+	\noindent\textbf{(\alph{subexercise}) }\rmfamily
+}{\medskip}
+\newenvironment{sol}[1][]{
+	\par\medskip
+	\begin{mdframed}
+		\textbf{Antwoord: }
+	\end{mdframed}
+}{\medskip}
+\newenvironment{proof}[1][]{
+	\par\medskip
+	\noindent\textit{Bewijs:}
+}{\null\hfill\(\blacksquare\)\medskip}
+\author{Educacie}
+\date{\today}
+
 
 \begin{document}
-
 \maketitle
-
+\begin{ex}
+    Environment to create an exercise
+\end{ex}
+\begin{subex}
+    Environment to create a subexercise
+\end{subex}
+\begin{sol}
+    Solution environment
+\end{sol}
+\begin{proof}
+    Proof environment
+\end{proof}
 
 \end{document}
