@@ -1,7 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1666879188 "c:/Users/Daan/educacie-exam-solution-project-beta/src/Calculus A_2020-04-06-solutions/main.tex" "main.pdf" "main" 1666879189
-  "c:/Users/Daan/educacie-exam-solution-project-beta/src/Calculus A_2020-04-06-solutions/main.tex" 1666879186 239 6c509464814de8964e8046402c20e3aa ""
+["pdflatex"] 1667300284 "c:/Users/Daan/educacie-exam-solution-project-beta/src/Calculus A_2020-04-06-solutions/main.tex" "main.pdf" "main" 1667300284
+  "c:/Users/Daan/educacie-exam-solution-project-beta/src/Calculus A_2020-04-06-solutions/main.tex" 1667300280 399 bf2d734394da2a43da86a8b08449fc6d ""
   "c:/texlive/2022/texmf-dist/fonts/map/fontname/texfonts.map" 1666276497 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx10.tfm" 1666274427 1328 c834bbb027764024c09d3d2bf908b5f0 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1666274427 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1666274427 1524 4414a8315f39513458b80dfc63bff03a ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1666274427 1512 f21f83efb36853c0b70002322c1ab3ad ""
@@ -13,10 +14,16 @@
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1666274427 1124 6c73e740cf17375f03eec0ee63599741 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1666274427 1116 933a60c408fc0a863a92debe84b2d294 ""
   "c:/texlive/2022/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1666274427 1120 8b7d695260f3cff42e636090a8002094 ""
+  "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1666273617 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1666273617 32080 340ef9bf63678554ee606688e7b5339d ""
+  "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1666273617 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
+  "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1666273617 36281 c355509802a035cadc5f15869451dcee ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1666273617 35752 024fb6c41858982481f6968b5fc26508 ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1666273617 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1666273617 32362 bc3f3eec7ab7d65fe700963d4017d32c ""
+  "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1666273617 32762 7fee39e011c23b3589931effd97b9702 ""
+  "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1666273617 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "c:/texlive/2022/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb" 1666273617 32716 08e384dc442464e7285e891af9f45947 ""
   "c:/texlive/2022/texmf-dist/tex/latex/base/article.cls" 1666277880 20144 7555b7429d80bef287ebb82117811acc ""
   "c:/texlive/2022/texmf-dist/tex/latex/base/inputenc.sty" 1666277880 5048 84b05796b49b69e2d4257d537721c960 ""
   "c:/texlive/2022/texmf-dist/tex/latex/base/size10.clo" 1666277881 8448 e0391042ca0932ede1098ae14ada60ba ""
@@ -25,8 +32,8 @@
   "c:/texlive/2022/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1666283014 4648419 cd736d89bc726120ec8d74e8e9beb636 ""
   "c:/texlive/2022/texmf-var/web2c/pdftex/pdflatex.fmt" 1666289748 3058773 5a6fbaf5458a4fd4c06eaa262ef24df9 ""
   "c:/texlive/2022/texmf.cnf" 1666282897 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1666879189 127 41aa6d01aaca67e3dccdd8751c15c321 "pdflatex"
-  "main.tex" 1666879186 239 6c509464814de8964e8046402c20e3aa ""
+  "main.aux" 1667300284 34 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  "main.tex" 1667300280 399 bf2d734394da2a43da86a8b08449fc6d ""
   (generated)
   "main.aux"
   "main.log"
